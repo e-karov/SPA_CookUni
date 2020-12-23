@@ -1,5 +1,5 @@
 import { showError, showSuccess } from '../js/notificator.js';
-import { register, login, logout as apiLogout, checkResult } from '../js/requests.js';
+import { register, login, logout as apiLogout, checkResult } from '../js/data.js';
 
 export async function registerPage() {
     this.partials = {

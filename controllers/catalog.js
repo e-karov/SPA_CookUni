@@ -1,5 +1,5 @@
-import { showError, showSuccess } from '../js/notificator.js';
-import { getAll, getItemById, createItem, editItem, deleteItem, likeItem, checkResult, setCategoryRelation } from '../js/requests.js';
+import { showError, showSuccess } from '../js/notifications.js';
+import { getAll, getItemById, createItem, editItem, deleteItem, likeItem, checkResult, setCategoryRelation } from '../js/data.js';
 
 export default async function home() {
     this.partials = {
